@@ -1,59 +1,69 @@
-# LandingPage
+# 🚀 Landing Page em Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.2.
+Bem-vindo ao meu primeiro projeto desenvolvido com **Angular**! 🎉
+Esta aplicação consiste em uma landing page moderna e focada em apresentar um produto/serviço de forma clara e atrativa.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🛠️ Tecnologias utilizadas
 
-```bash
-ng serve
-```
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+  
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## ✨ Funcionalidades
 
-## Code scaffolding
+* ⚡ Navegação fluida
+* 🎯 Seções bem definidas (Hero, Sobre, Serviços, Contato, etc.)
+* 🎨 Design moderno e limpo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## ▶️ Como rodar o projeto
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+### 1. Clone o repositório
 
 ```bash
-ng build
+git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+### 2. Acesse a pasta
 
 ```bash
-ng test
+cd seu-repositorio
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### 3. Instale as dependências
 
 ```bash
-ng e2e
+npm install
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### 4. Execute o projeto
 
-## Additional Resources
+```bash
+npm run start
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### 5. Abra no navegador
+
+```
+http://localhost:4200
+```
+
+---
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto, aprendi:
+
+* Estrutura básica de um projeto Angular
+* Criação de componentes reutilizáveis
+* Organização de pastas
+* Estilização
+
+
+
