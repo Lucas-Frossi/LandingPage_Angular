@@ -1,0 +1,52 @@
+@import "../../../color-variables.scss";
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $bg-secondary;
+    padding: 40px 70px;
+    color: #fff;
+
+    h3 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 80%;
+    }
+
+    .text {
+        flex: 1;
+    }
+
+    form {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+
+        input {
+            background: none;
+            border: none;
+            border-bottom: 1px solid #fff;
+            width: 100%;
+            height: 60px;
+            margin-bottom: 40px;
+            color: #fff;
+            padding: 0 12px;
+        }
+
+        input:focus {
+            background: #fff;
+            color: $primary-text;
+            outline: none;
+        }
+    }
+}

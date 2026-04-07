@@ -1,0 +1,82 @@
+@import "../../../color-variables.scss";
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Roboto", sans-serif;
+
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        color: $secondary-text;
+    }
+
+    h1 {
+        font-size: 72px;
+        font-weight: 900;
+        color: $primary-text;
+    }
+}
+
+.benefit-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+    .benefit-data {
+        border-bottom: 10px solid $secondary-color;
+        padding-bottom: 40px;
+
+        h2 {
+            font-size: 60px;
+            font-weight: 600;
+            font-family: "Roboto", sans-serif;
+            color: $primary-text;
+        }
+    }
+
+    p {
+        font-size: 40px;
+        font-weight: 300;
+        font-style: italic;
+
+        b {
+            background: -webkit-linear-gradient(360deg, $secondary-color, $light-primary-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-style: normal;
+        }
+
+    }
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 600;
+        width: 70%;
+    }
+}
+
